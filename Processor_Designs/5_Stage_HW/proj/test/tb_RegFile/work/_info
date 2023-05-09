@@ -1,0 +1,579 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/test/tb_RegFile
+T_opt
+!s110 1679583067
+VdRlMR`J:QDGkHOkZe7U2L2
+04 11 5 work tb_reg_file mixed 1
+=1-e43d1aa034bf-641c675b-e29d-7db
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2022.2;75
+R1
+Edecoder_5t32
+Z2 w1675463482
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z5 8../../src/RegFile/decoder_5t32.vhd
+Z6 F../../src/RegFile/decoder_5t32.vhd
+l0
+L18 1
+VQ3jE>8UfeXg;d;WYY?f`63
+!s100 o5h?a6ZIEzBg1fNJEgdcT0
+Z7 OL;C;2022.2;75
+32
+Z8 !s110 1679583066
+!i10b 1
+Z9 !s108 1679583066.000000
+Z10 !s90 -reportprogress|300|../../src/RegFile/decoder_5t32.vhd|../../src/RegFile/dffg.vhd|../../src/RegFile/mux_32t1_32b.vhd|../../src/RegFile/reg_N.vhd|../../src/RegFile/reg_file.vhd|
+Z11 !s107 ../../src/RegFile/reg_file.vhd|../../src/RegFile/reg_N.vhd|../../src/RegFile/mux_32t1_32b.vhd|../../src/RegFile/dffg.vhd|../../src/RegFile/decoder_5t32.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Adataflow
+R3
+R4
+DEx4 work 12 decoder_5t32 0 22 Q3jE>8UfeXg;d;WYY?f`63
+!i122 1
+l28
+L25 42
+VbTAaYgAZ?m^KV^;MKzd0N0
+!s100 AaL7RB8`1Q4:mP?3BfRQM0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Edffg
+Z13 w1679587341
+R3
+R4
+!i122 44
+R1
+Z14 8/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/dffg.vhd
+Z15 F/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/dffg.vhd
+l0
+Z16 L21 1
+VG144_NVF3jiOXSNM>OlZC0
+!s100 G56Nz?1a4GD7PA;X;c0N<2
+R7
+32
+Z17 !s110 1679620633
+!i10b 1
+Z18 !s108 1679620633.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/dffg.vhd|
+Z20 !s107 /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/dffg.vhd|
+!i113 0
+Z21 o-work work -2002 -explicit
+R12
+Amixed
+R3
+R4
+DEx4 work 4 dffg 0 22 G144_NVF3jiOXSNM>OlZC0
+!i122 44
+l36
+L32 29
+VC4SGfb@?[_:fl[4T[mR1Q1
+!s100 cO2G<JomfZm43``n2Z]=92
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R12
+Edmem_wb_buffer_reg
+Z22 w1679620623
+Z23 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z24 DPx4 work 10 mips_types 0 22 o]bUSb5M0lT9B?O2D4D070
+R3
+R4
+!i122 45
+R1
+Z25 8/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/DMEM_WB_BufferReg.vhd
+Z26 F/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/DMEM_WB_BufferReg.vhd
+l0
+Z27 L17 1
+VWXnM0^d:z12nzUKeVQ]KH2
+!s100 ETJYhlJTd^3[02=Jk[Z120
+R7
+32
+R17
+!i10b 1
+R18
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/DMEM_WB_BufferReg.vhd|
+Z29 !s107 /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/DMEM_WB_BufferReg.vhd|
+!i113 0
+R21
+R12
+Astructural
+R23
+R24
+R3
+R4
+DEx4 work 18 dmem_wb_buffer_reg 0 22 WXnM0^d:z12nzUKeVQ]KH2
+!i122 45
+l65
+L53 144
+Vm@WWBPSCDz6H@mSWYNZkX3
+!s100 Y8;5RaQndT=IN<i[VAUk<3
+R7
+32
+R17
+!i10b 1
+R18
+R28
+R29
+!i113 0
+R21
+R12
+Eex_dmem_bufferreg
+Z30 w1679620618
+R23
+R24
+R3
+R4
+!i122 46
+R1
+Z31 8/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/EX_DMEM_BufferReg.vhd
+Z32 F/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/EX_DMEM_BufferReg.vhd
+l0
+R27
+VN5Qlm6`I8n00fPY;7lbL;2
+!s100 og0W`GClkN<fohCW_Di;V2
+R7
+32
+Z33 !s110 1679620634
+!i10b 1
+R18
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/EX_DMEM_BufferReg.vhd|
+Z35 !s107 /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/EX_DMEM_BufferReg.vhd|
+!i113 0
+R21
+R12
+Astructural
+R23
+R24
+R3
+R4
+DEx4 work 17 ex_dmem_bufferreg 0 22 N5Qlm6`I8n00fPY;7lbL;2
+!i122 46
+l66
+L54 153
+V;[^R>EO=f_c`7Fd^<DGJV2
+!s100 hDPOZfM1XB`;W]oHY_00e0
+R7
+32
+R33
+!i10b 1
+R18
+R34
+R35
+!i113 0
+R21
+R12
+Eid_ex_bufferreg
+Z36 w1679589826
+R23
+R24
+R3
+R4
+!i122 31
+R1
+Z37 8/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/ID_EX_BufferReg.vhd
+Z38 F/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/ID_EX_BufferReg.vhd
+l0
+R27
+V=Fn;9X6X@;;noPZC3zaXC1
+!s100 fJ>izM;[eiiUoI79VANXm1
+R7
+32
+Z39 !s110 1679594188
+!i10b 1
+Z40 !s108 1679594188.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/ID_EX_BufferReg.vhd|
+Z42 !s107 /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/ID_EX_BufferReg.vhd|
+!i113 0
+R21
+R12
+Astructural
+R23
+R24
+R3
+R4
+DEx4 work 15 id_ex_bufferreg 0 22 =Fn;9X6X@;;noPZC3zaXC1
+!i122 31
+l75
+L63 207
+V3`T1?NA]UQ:j2J4Hnh0X^3
+!s100 D^oY<<PRd4J0<jakg>hFT2
+R7
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 0
+R21
+R12
+Eif_id_bufferreg
+Z43 w1679589065
+R23
+R24
+R3
+R4
+!i122 33
+R1
+Z44 8/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/IF_ID_BufferReg.vhd
+Z45 F/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/IF_ID_BufferReg.vhd
+l0
+R27
+V:JRN]8BjD<:A9OVCO]`8d1
+!s100 kW:gP2zfUhUoNb@J1ADDC0
+R7
+32
+R39
+!i10b 1
+R40
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/IF_ID_BufferReg.vhd|
+Z47 !s107 /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/IF_ID_BufferReg.vhd|
+!i113 0
+R21
+R12
+Astructural
+R23
+R24
+R3
+R4
+DEx4 work 15 if_id_bufferreg 0 22 :JRN]8BjD<:A9OVCO]`8d1
+!i122 33
+l40
+L28 35
+Vk5BCBhPeT[XLY8D8K:lJ=2
+!s100 CI`Y^6`k@AjiYYfl43mhW2
+R7
+32
+R39
+!i10b 1
+R40
+R46
+R47
+!i113 0
+R21
+R12
+Pmips_types
+R23
+R3
+R4
+!i122 0
+Z48 w1678249279
+R1
+Z49 8../../src/MIPS_types.vhd
+Z50 F../../src/MIPS_types.vhd
+l0
+L16 15
+Vo]bUSb5M0lT9B?O2D4D070
+!s100 [CiT0M4f[D>7EfN`DjB^:3
+R7
+32
+R8
+!i10b 1
+R9
+Z51 !s90 -reportprogress|300|../../src/MIPS_types.vhd|
+Z52 !s107 ../../src/MIPS_types.vhd|
+!i113 0
+R12
+Bbody
+R24
+R23
+R3
+R4
+!i122 0
+l0
+L32 3
+VndoP^z1GoB@SZ6hSbjTLR3
+!s100 5ODOZh=5S=UA6<h;`DJZ50
+R7
+32
+R8
+!i10b 1
+R9
+R51
+R52
+!i113 0
+R12
+Emux_32t1_32b
+Z53 w1678249221
+R24
+R23
+R3
+R4
+!i122 1
+R1
+Z54 8../../src/RegFile/mux_32t1_32b.vhd
+Z55 F../../src/RegFile/mux_32t1_32b.vhd
+l0
+R16
+VBZj51@bVC0LSNZC5hH`]=3
+!s100 MYTF?2SDJ[n713M0[gDA80
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Adataflow
+R24
+R23
+R3
+R4
+DEx4 work 12 mux_32t1_32b 0 22 BZj51@bVC0LSNZC5hH`]=3
+!i122 1
+l30
+L28 5
+V_8i?W_DP=HA7TSE[XMlBR2
+!s100 S5^Z[ckn57J?Yg@[jBiIF2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Ereg_file
+Z56 w1679583064
+R23
+R24
+R3
+R4
+!i122 1
+R1
+Z57 8../../src/RegFile/reg_file.vhd
+Z58 F../../src/RegFile/reg_file.vhd
+l0
+Z59 L19 1
+Vmb3d^K3o7>79WWOI24L[Z0
+!s100 g4bKA3KIoXYS7D6m0]YNi1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Astructural
+R23
+R24
+R3
+R4
+DEx4 work 8 reg_file 0 22 mb3d^K3o7>79WWOI24L[Z0
+!i122 1
+l61
+L32 77
+V:<f8:Y8egzEc2WblSXc]B1
+!s100 ZlYIdMG5PzNbW^zFz6K_[3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Ereg_n
+Z60 w1679581706
+R3
+R4
+!i122 1
+R1
+Z61 8../../src/RegFile/reg_N.vhd
+Z62 F../../src/RegFile/reg_N.vhd
+l0
+R59
+VB:D=Wn[:McQa=WgD]bYUe2
+!s100 kMegI@C=mX>nn42jYib953
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Astructural
+R3
+R4
+DEx4 work 5 reg_n 0 22 B:D=Wn[:McQa=WgD]bYUe2
+!i122 1
+l42
+L29 30
+VV7V[A@5U_e549bA>^X80T3
+!s100 W^C0eMTm1H4UzGjJ]S4eV3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Ereg_n_buff
+Z63 w1679589689
+R3
+R4
+!i122 34
+R1
+Z64 8/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/reg_N_buff.vhd
+Z65 F/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/reg_N_buff.vhd
+l0
+R59
+VOT]S>f4eTJih8biGJD_731
+!s100 38H;5A:50a6e1X;S]>8Lz1
+R7
+32
+R39
+!i10b 1
+R40
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/reg_N_buff.vhd|
+Z67 !s107 /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/PipelineReg/reg_N_buff.vhd|
+!i113 0
+R21
+R12
+Astructural
+R3
+R4
+DEx4 work 10 reg_n_buff 0 22 OT]S>f4eTJih8biGJD_731
+!i122 34
+l40
+L29 24
+V?9Yn46@MQ_P99>T81zgfR3
+!s100 5Z1:cl_Zlk;gIe_0R7:Sa0
+R7
+32
+R39
+!i10b 1
+R40
+R66
+R67
+!i113 0
+R21
+R12
+Etb_reg_file
+Z68 w1679582662
+R23
+R24
+R3
+R4
+!i122 2
+R1
+Z69 8tb_reg_file.vhd
+Z70 Ftb_reg_file.vhd
+l0
+L20 1
+VRX<giaCdVUBM`NN_E9=nM2
+!s100 kOEQ0oK@EA1Gl0RDmYO3j2
+R7
+32
+R8
+!i10b 1
+R9
+Z71 !s90 -reportprogress|300|/*.vhd|
+Z72 !s107 tb_reg_file.vhd|
+!i113 0
+R12
+Amixed
+R23
+R24
+R3
+R4
+DEx4 work 11 tb_reg_file 0 22 RX<giaCdVUBM`NN_E9=nM2
+!i122 2
+l54
+L24 150
+VbFPLKA^CWQY^TF7bM9GRc1
+!s100 5MAKIhbJclfJGUYz75c5;2
+R7
+32
+R8
+!i10b 1
+R9
+R71
+R72
+!i113 0
+R12
+Ewb_wb_bufferreg
+Z73 w1679594554
+R23
+R24
+R3
+R4
+!i122 37
+R1
+R25
+R26
+l0
+R27
+V0F9WdzP29UTDVRX65aP4h1
+!s100 bPP=B:Nm_1ITZzDTlNMR<2
+R7
+32
+Z74 !s110 1679594617
+!i10b 1
+Z75 !s108 1679594617.000000
+R28
+R29
+!i113 0
+R21
+R12
+Astructural
+R23
+R24
+R3
+R4
+DEx4 work 15 wb_wb_bufferreg 0 22 0F9WdzP29UTDVRX65aP4h1
+!i122 37
+l61
+L49 124
+VVO]4[GFneQAAT0ijOkZ;K0
+!s100 f;^B21QncH3Z;JIOMh6c53
+R7
+32
+R74
+!i10b 1
+R75
+R28
+R29
+!i113 0
+R21
+R12

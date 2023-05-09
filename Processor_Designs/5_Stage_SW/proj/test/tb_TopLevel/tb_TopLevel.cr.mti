@@ -1,0 +1,217 @@
+/home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/mux_32t1_32b.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/mux_32t1_32b.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity mux_32t1_32b
+-- Compiling architecture dataflow of mux_32t1_32b
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/ID_EX_BufferReg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/ID_EX_BufferReg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity ID_EX_BufferReg
+-- Compiling architecture structural of ID_EX_BufferReg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/DMEM_WB_BufferReg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/DMEM_WB_BufferReg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity DMEM_WB_BufferReg
+-- Compiling architecture structural of DMEM_WB_BufferReg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/TopLevel/mem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/TopLevel/mem.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/IF_ID_BufferReg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/IF_ID_BufferReg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity IF_ID_BufferReg
+-- Compiling architecture structural of IF_ID_BufferReg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/reg_file.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/reg_file.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity reg_file
+-- Compiling architecture structural of reg_file
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/adder_subber.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/adder_subber.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_subber
+-- Compiling architecture structural of adder_subber
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/dffg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/dffg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/reg_N_buff.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/reg_N_buff.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_N_buff
+-- Compiling architecture structural of reg_N_buff
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/ones_comp.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/ones_comp.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ones_comp
+-- Compiling architecture structural of ones_comp
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/ripple_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/ripple_adder.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ripple_adder
+-- Compiling architecture structural of ripple_adder
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/EX_DMEM_BufferReg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/BufferReg/EX_DMEM_BufferReg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity EX_DMEM_BufferReg
+-- Compiling architecture structural of EX_DMEM_BufferReg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/invg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/invg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/extender/extend_16t32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/extender/extend_16t32.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity extend_16t32
+-- Compiling architecture dataflow of extend_16t32
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/MIPS_types.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/MIPS_types.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/shift.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/shift.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift
+-- Compiling architecture structural of shift
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/mux2t1_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/mux2t1_N.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_N
+-- Compiling architecture dataflow of mux2t1_N
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/logic.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/logic.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity logic
+-- Compiling architecture structural of logic
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/prefetch/program_counter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/prefetch/program_counter.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity program_counter
+-- Compiling architecture datapath of program_counter
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/decoder_5t32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/decoder_5t32.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder_5t32
+-- Compiling architecture dataflow of decoder_5t32
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/reg_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/RegFile/reg_N.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_N
+-- Compiling architecture structural of reg_N
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/control/control.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/control/control.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control
+-- Compiling architecture dataflow of control
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/branch/branch.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/branch/branch.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity branch
+-- Compiling architecture structural of branch
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/full_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/full_adder.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture behavorial of full_adder
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2SW/proj/src/ALU/ALU.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU
+-- Compiling architecture mixed of ALU
+
+} {} {}}

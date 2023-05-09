@@ -1,0 +1,50 @@
+/home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/RegFile/dffg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/RegFile/dffg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/BufferReg/reg_N_buff.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/BufferReg/reg_N_buff.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_N_buff
+-- Compiling architecture structural of reg_N_buff
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/BufferReg/DMEM_WB_BufferReg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/BufferReg/DMEM_WB_BufferReg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DMEM_WB_BufferReg
+-- Compiling architecture structural of DMEM_WB_BufferReg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/BufferReg/EX_DMEM_BufferReg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/BufferReg/EX_DMEM_BufferReg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity EX_DMEM_BufferReg
+-- Compiling architecture structural of EX_DMEM_BufferReg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/BufferReg/IF_ID_BufferReg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/src/BufferReg/IF_ID_BufferReg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity IF_ID_BufferReg
+-- Compiling architecture structural of IF_ID_BufferReg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/test/tb_BufferReg/tb_BufferReg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/test/tb_BufferReg/tb_BufferReg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_BufferReg
+-- Compiling architecture mixed of tb_BufferReg
+
+} {} {}}

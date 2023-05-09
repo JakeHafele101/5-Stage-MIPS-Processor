@@ -1,0 +1,298 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/jmhafele/Documents/Spring_2023/cpre381/Project2HW/proj/test/tb_BufferReg
+T_opt
+Z2 !s110 1680790311
+V_C>mb=iXDn1M4ZZf5EB6I1
+04 12 5 work tb_bufferreg mixed 1
+=1-e43d1aa034bf-642ed327-9a639-6a02
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2022.2;75
+Edffg
+Z3 w1679587341
+Z4 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z5 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z6 8../../src/RegFile/dffg.vhd
+Z7 F../../src/RegFile/dffg.vhd
+l0
+L21 1
+ViMjUkg<`oi<HhZahdQS4F0
+!s100 G56Nz?1a4GD7PA;X;c0N<2
+Z8 OL;C;2022.2;75
+32
+R2
+!i10b 1
+Z9 !s108 1680790311.000000
+Z10 !s90 -reportprogress|300|../../src/RegFile/dffg.vhd|
+Z11 !s107 ../../src/RegFile/dffg.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Amixed
+R4
+R5
+DEx4 work 4 dffg 0 22 iMjUkg<`oi<HhZahdQS4F0
+!i122 1
+l36
+L32 29
+V2<nU:94o<f6;7R>D_SQGF1
+!s100 cO2G<JomfZm43``n2Z]=92
+R8
+32
+R2
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Edmem_wb_bufferreg
+Z13 w1680206938
+R4
+R5
+!i122 2
+R1
+Z14 8../../src/BufferReg/DMEM_WB_BufferReg.vhd
+Z15 F../../src/BufferReg/DMEM_WB_BufferReg.vhd
+l0
+Z16 L16 1
+VIG^eZXZ<bRB@g[:H45=CE1
+!s100 Z6n[Q`BfXF0hXoQdUV80c0
+R8
+32
+R2
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|../../src/BufferReg/DMEM_WB_BufferReg.vhd|../../src/BufferReg/EX_DMEM_BufferReg.vhd|../../src/BufferReg/ID_EX_BufferReg.vhd|../../src/BufferReg/IF_ID_BufferReg.vhd|../../src/BufferReg/reg_N_buff.vhd|
+Z18 !s107 ../../src/BufferReg/reg_N_buff.vhd|../../src/BufferReg/IF_ID_BufferReg.vhd|../../src/BufferReg/ID_EX_BufferReg.vhd|../../src/BufferReg/EX_DMEM_BufferReg.vhd|../../src/BufferReg/DMEM_WB_BufferReg.vhd|
+!i113 0
+R12
+Astructural
+R4
+R5
+DEx4 work 17 dmem_wb_bufferreg 0 22 IG^eZXZ<bRB@g[:H45=CE1
+!i122 2
+l60
+L46 125
+VogLOLo@DGi_`A5SNT5dhI0
+!s100 o@COiFB1=`l]kM2]^fSAo3
+R8
+32
+R2
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+Eex_dmem_bufferreg
+Z19 w1680206920
+R4
+R5
+!i122 2
+R1
+Z20 8../../src/BufferReg/EX_DMEM_BufferReg.vhd
+Z21 F../../src/BufferReg/EX_DMEM_BufferReg.vhd
+l0
+R16
+VnSS;ITI?OoF@`1;L^Y]eD3
+!s100 KR1D]eQo6NZI[PCTgZ`WN1
+R8
+32
+R2
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+Astructural
+R4
+R5
+DEx4 work 17 ex_dmem_bufferreg 0 22 nSS;ITI?OoF@`1;L^Y]eD3
+!i122 2
+l62
+L48 136
+Vf:Bze[b=R;F>=cV4o50933
+!s100 2zjnP9SeNehz=bbB?@[S=3
+R8
+32
+R2
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+Eid_ex_bufferreg
+Z22 w1680212017
+R4
+R5
+!i122 2
+R1
+Z23 8../../src/BufferReg/ID_EX_BufferReg.vhd
+Z24 F../../src/BufferReg/ID_EX_BufferReg.vhd
+l0
+R16
+VZI9HJ:h2DN^n;O<<[ob0o1
+!s100 cEFD30@R4?=@1_a3H2j0=2
+R8
+32
+R2
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+Astructural
+R4
+R5
+DEx4 work 15 id_ex_bufferreg 0 22 ZI9HJ:h2DN^n;O<<[ob0o1
+!i122 2
+l80
+L66 256
+V7k0B;_[Izdh1E;;_^6SaF3
+!s100 7ONV]M`Da5FLFNlB=TjGB1
+R8
+32
+R2
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+Eif_id_bufferreg
+Z25 w1680206875
+R4
+R5
+!i122 2
+R1
+Z26 8../../src/BufferReg/IF_ID_BufferReg.vhd
+Z27 F../../src/BufferReg/IF_ID_BufferReg.vhd
+l0
+R16
+V`H5W2XRi542GGZ43B?49`1
+!s100 ek:3dOH99[[:B]hg_F8<R2
+R8
+32
+R2
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+Astructural
+R4
+R5
+DEx4 work 15 if_id_bufferreg 0 22 `H5W2XRi542GGZ43B?49`1
+!i122 2
+l44
+L30 41
+Vi9dMeRnVEe7FC1CWjb4cH0
+!s100 RI0ZV:c5kZK`S4c^@R]Tz1
+R8
+32
+R2
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+Ereg_n_buff
+Z28 w1680206744
+R4
+R5
+!i122 2
+R1
+Z29 8../../src/BufferReg/reg_N_buff.vhd
+Z30 F../../src/BufferReg/reg_N_buff.vhd
+l0
+L19 1
+Vk_6@fe=_XQoVc36oURz832
+!s100 LlaPd880hGe6iEIB14=6h1
+R8
+32
+R2
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+Astructural
+R4
+R5
+DEx4 work 10 reg_n_buff 0 22 k_6@fe=_XQoVc36oURz832
+!i122 2
+l46
+L31 34
+V8I]340@zdegGffAna;Z8f0
+!s100 0Yi:^`eh6[Y0[UobZGiF>0
+R8
+32
+R2
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+Etb_bufferreg
+Z31 w1680208597
+Z32 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+R4
+R5
+!i122 0
+R1
+Z33 8tb_BufferReg.vhd
+Z34 Ftb_BufferReg.vhd
+l0
+L20 1
+VGk6DMeKSOMJcaadPCfB0=1
+!s100 F2XNA6i:e7jid9TIE<?gb2
+R8
+32
+R2
+!i10b 1
+R9
+Z35 !s90 -reportprogress|300|/*.vhd|
+Z36 !s107 tb_BufferReg.vhd|
+!i113 0
+R12
+Amixed
+R32
+R4
+R5
+DEx4 work 12 tb_bufferreg 0 22 Gk6DMeKSOMJcaadPCfB0=1
+!i122 0
+l161
+L24 521
+VTofgDZkBFH?bok3eG11oo3
+!s100 @Ym>hiEEYMZRel62:]^;>2
+R8
+32
+R2
+!i10b 1
+R9
+R35
+R36
+!i113 0
+R12

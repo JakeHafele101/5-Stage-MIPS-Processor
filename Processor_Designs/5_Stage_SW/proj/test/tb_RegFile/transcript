@@ -1,0 +1,799 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project tb_Control
+# reading /usr/local/mentor/questasim/linux_x86_64/../modelsim.ini
+# Loading project tb_RegFile
+# Compile of tb_reg_file.vhd failed with 3 errors.
+# Compile of decoder_5t32.vhd was successful.
+# Compile of dffg.vhd was successful.
+# Compile of mux_32t1_32b.vhd failed with 3 errors.
+# Compile of reg_file.vhd failed with 3 errors.
+# Compile of reg_N.vhd was successful.
+# 6 compiles, 3 failed with 9 errors.
+# Compile of tb_reg_file.vhd failed with 3 errors.
+# Compile of decoder_5t32.vhd was successful.
+# Compile of dffg.vhd was successful.
+# Compile of mux_32t1_32b.vhd failed with 3 errors.
+# Compile of reg_file.vhd failed with 3 errors.
+# Compile of reg_N.vhd was successful.
+# Compile of MIPS_types.vhd was successful.
+# 7 compiles, 3 failed with 9 errors.
+# Compile of MIPS_types.vhd was successful.
+# Compile of reg_file.vhd was successful.
+# Compile of mux_32t1_32b.vhd was successful.
+# Compile of tb_reg_file.vhd failed with 3 errors.
+# Compile of tb_reg_file.vhd was successful.
+# Compile of tb_reg_file.vhd was successful.
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:33:57 on Mar 23,2023
+# vcom -reportprogress 300 ../src/*.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "../src/*.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 09:33:57 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_reg_file.do line 20
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ../src/*.vhd"
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:35:43 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.mips_types.
+# ** Error (suppressible): tb_reg_file.vhd(18): (vcom-1195) Cannot find expanded name "work.MIPS_types".
+# ** Error: tb_reg_file.vhd(18): Unknown expanded name.
+# ** Note: tb_reg_file.vhd(20): VHDL Compiler exiting
+# End time: 09:35:43 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_reg_file.do line 20
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom /*.vhd"
+# Compile of MIPS_types.vhd was successful.
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:37:02 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.mips_types.
+# ** Error (suppressible): tb_reg_file.vhd(18): (vcom-1195) Cannot find expanded name "work.MIPS_types".
+# ** Error: tb_reg_file.vhd(18): Unknown expanded name.
+# ** Note: tb_reg_file.vhd(20): VHDL Compiler exiting
+# End time: 09:37:02 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_reg_file.do line 20
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom /*.vhd"
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:37:46 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:37:46 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:37:46 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# End time: 09:37:46 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:37:46 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:37:46 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_reg_file 
+# Start time: 09:37:46 on Mar 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error (suppressible): tb_reg_file.vhd(56): (vopt-1270) Bad default binding for component instance "DUT0: reg_file".
+#  (Component port "i_RD" is not on the entity.)
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tb_reg_file.do PAUSED at line 25
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:38:27 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:38:27 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:38:27 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:38:27 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:38:27 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# End time: 09:38:27 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_reg_file 
+# Start time: 09:37:46 on Mar 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error (suppressible): tb_reg_file.vhd(56): (vopt-1270) Bad default binding for component instance "DUT0: reg_file".
+#  (Component port "i_RD" is not on the entity.)
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tb_reg_file.do PAUSED at line 25
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:43:05 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:43:05 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:43:05 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:43:05 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:43:05 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# ** Error: tb_reg_file.vhd(61): near "i_rt_ADDR": (vcom-1576) expecting ',' or ')'.
+# ** Error: tb_reg_file.vhd(69): Statement cannot be labeled.
+# ** Error: tb_reg_file.vhd(108): Illegal target for signal assignment.
+# ** Error: tb_reg_file.vhd(108): (vcom-1136) Unknown identifier "s_i_RD".
+# ** Note: tb_reg_file.vhd(173): VHDL Compiler exiting
+# End time: 09:43:05 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_reg_file.do line 22
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom /*.vhd"
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:43:22 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:43:23 on Mar 23,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:43:23 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:43:23 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:43:23 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# ** Error: tb_reg_file.vhd(108): Illegal target for signal assignment.
+# ** Error: tb_reg_file.vhd(108): (vcom-1136) Unknown identifier "s_i_RD".
+# ** Note: tb_reg_file.vhd(173): VHDL Compiler exiting
+# End time: 09:43:23 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_reg_file.do line 22
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom /*.vhd"
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:43:34 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:43:34 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:43:34 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:43:34 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:43:34 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# End time: 09:43:34 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_reg_file 
+# Start time: 09:37:46 on Mar 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=4, Warnings=3.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_types(body)
+# Loading work.tb_reg_file(mixed)#1
+# Loading work.reg_file(structural)#1
+# Loading work.decoder_5t32(dataflow)#1
+# Loading work.reg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux_32t1_32b(dataflow)#1
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_reg_file/s_i_RS'.
+# Error in macro ./tb_reg_file.do line 38
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_reg_file/s_i_RS'.
+#     while executing
+# "add wave -noupdate -divider {Data Inputs}"
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:44:24 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:44:24 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:44:24 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:44:24 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:44:24 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# End time: 09:44:24 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:44:24 on Mar 23,2023, Elapsed time: 0:06:38
+# Errors: 4, Warnings: 18
+# vsim -voptargs="+acc" work.tb_reg_file 
+# Start time: 09:44:24 on Mar 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_types(body)
+# Loading work.tb_reg_file(mixed)#1
+# Loading work.reg_file(structural)#1
+# Loading work.decoder_5t32(dataflow)#1
+# Loading work.reg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux_32t1_32b(dataflow)#1
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_reg_file/s_i_RS'.
+# Error in macro ./tb_reg_file.do line 38
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_reg_file/s_i_RS'.
+#     while executing
+# "add wave -noupdate -divider {Data Inputs}"
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:44:37 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:44:37 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:44:37 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:44:37 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:44:37 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# End time: 09:44:37 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:44:37 on Mar 23,2023, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_reg_file 
+# Start time: 09:44:37 on Mar 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_types(body)
+# Loading work.tb_reg_file(mixed)#1
+# Loading work.reg_file(structural)#1
+# Loading work.decoder_5t32(dataflow)#1
+# Loading work.reg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux_32t1_32b(dataflow)#1
+# ** Note: RS_Data error at time 35 ns
+#    Time: 35 ns  Iteration: 0  Instance: /tb_reg_file
+# ** Note: RT_Data error at time 35 ns
+#    Time: 35 ns  Iteration: 0  Instance: /tb_reg_file
+# 0 ns
+# 126 ns
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:45:01 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:45:01 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:45:01 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:45:01 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:45:01 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# End time: 09:45:01 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:45:02 on Mar 23,2023, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_reg_file 
+# Start time: 09:45:02 on Mar 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_types(body)
+# Loading work.tb_reg_file(mixed)#1
+# Loading work.reg_file(structural)#1
+# Loading work.decoder_5t32(dataflow)#1
+# Loading work.reg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux_32t1_32b(dataflow)#1
+# ** Note: RS_Data error at time 35 ns
+#    Time: 35 ns  Iteration: 0  Instance: /tb_reg_file
+# ** Note: RT_Data error at time 35 ns
+#    Time: 35 ns  Iteration: 0  Instance: /tb_reg_file
+# 0 ns
+# 126 ns
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:45:17 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:45:18 on Mar 23,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:45:18 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:45:18 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:45:18 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# End time: 09:45:18 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:45:19 on Mar 23,2023, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_reg_file 
+# Start time: 09:45:19 on Mar 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_types(body)
+# Loading work.tb_reg_file(mixed)#1
+# Loading work.reg_file(structural)#1
+# Loading work.decoder_5t32(dataflow)#1
+# Loading work.reg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux_32t1_32b(dataflow)#1
+# ** Note: RS_Data error at time 35 ns
+#    Time: 35 ns  Iteration: 0  Instance: /tb_reg_file
+# ** Note: RT_Data error at time 35 ns
+#    Time: 35 ns  Iteration: 0  Instance: /tb_reg_file
+# 0 ns
+# 126 ns
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:46:16 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:46:16 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:46:16 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:46:16 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:46:16 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# End time: 09:46:16 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:46:16 on Mar 23,2023, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_reg_file 
+# Start time: 09:46:16 on Mar 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_types(body)
+# Loading work.tb_reg_file(mixed)#1
+# Loading work.reg_file(structural)#1
+# Loading work.decoder_5t32(dataflow)#1
+# Loading work.reg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux_32t1_32b(dataflow)#1
+# ** Note: RS_Data error at time 35 ns
+#    Time: 35 ns  Iteration: 0  Instance: /tb_reg_file
+# ** Note: RT_Data error at time 35 ns
+#    Time: 35 ns  Iteration: 0  Instance: /tb_reg_file
+# 0 ns
+# 126 ns
+do tb_reg_file.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:51:06 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# End time: 09:51:06 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:51:06 on Mar 23,2023
+# vcom -reportprogress 300 ../../src/RegFile/decoder_5t32.vhd ../../src/RegFile/dffg.vhd ../../src/RegFile/mux_32t1_32b.vhd ../../src/RegFile/reg_N.vhd ../../src/RegFile/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity mux_32t1_32b
+# -- Compiling architecture dataflow of mux_32t1_32b
+# -- Compiling entity reg_N
+# -- Compiling architecture structural of reg_N
+# -- Compiling entity reg_file
+# -- Compiling architecture structural of reg_file
+# End time: 09:51:06 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 09:51:06 on Mar 23,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MIPS_types
+# -- Compiling entity tb_reg_file
+# -- Compiling architecture mixed of tb_reg_file
+# End time: 09:51:06 on Mar 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:51:06 on Mar 23,2023, Elapsed time: 0:04:50
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_reg_file 
+# Start time: 09:51:06 on Mar 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_types(body)
+# Loading work.tb_reg_file(mixed)#1
+# Loading work.reg_file(structural)#1
+# Loading work.decoder_5t32(dataflow)#1
+# Loading work.reg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux_32t1_32b(dataflow)#1
+# 0 ns
+# 126 ns
+# End time: 10:56:28 on Mar 23,2023, Elapsed time: 1:05:22
+# Errors: 0, Warnings: 2

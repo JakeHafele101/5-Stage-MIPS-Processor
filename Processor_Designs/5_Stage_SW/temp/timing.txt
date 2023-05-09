@@ -1,0 +1,65 @@
+
+#
+# CprE 381 toolflow Timing dump
+#
+
+FMax: 55.05mhz Clk Constraint: 20.00ns Slack: 1.84ns
+
+The path is given below
+
+ ===================================================================
+ From Node    : mem:DMem|altsyncram:ram_rtl_0|altsyncram_eg81:auto_generated|ram_block1a20~porta_we_reg
+ To Node      : prefetch:g_prefetch|program_counter:g_PC_DFF|s_Q[24]
+ Launch Clock : iCLK
+ Latch Clock  : iCLK
+ Data Arrival Path:
+ Total (ns)  Incr (ns)     Type  Element
+ ==========  ========= ==  ====  ===================================
+      0.000      0.000           launch edge time
+      3.451      3.451  R        clock network delay
+      3.714      0.263     uTco  mem:DMem|altsyncram:ram_rtl_0|altsyncram_eg81:auto_generated|ram_block1a20~porta_we_reg
+      6.563      2.849 RF  CELL  DMem|ram_rtl_0|auto_generated|ram_block1a20|portadataout[7]
+      7.356      0.793 FF    IC  Mux8~0|dataa
+      7.710      0.354 FF  CELL  Mux8~0|combout
+      7.980      0.270 FF    IC  Mux8~1|datab
+      8.405      0.425 FF  CELL  Mux8~1|combout
+     10.187      1.782 FF    IC  g_reg_File|\G_N_32bit_Reg:10:REG_I|o_Q[28]~19|datab
+     10.543      0.356 FF  CELL  g_reg_File|\G_N_32bit_Reg:10:REG_I|o_Q[28]~19|combout
+     12.610      2.067 FF    IC  g_reg_File|G_MUX_RT|Mux3~6|datac
+     12.890      0.280 FF  CELL  g_reg_File|G_MUX_RT|Mux3~6|combout
+     13.157      0.267 FF    IC  g_reg_File|G_MUX_RT|Mux3~7|datab
+     13.561      0.404 FF  CELL  g_reg_File|G_MUX_RT|Mux3~7|combout
+     13.798      0.237 FF    IC  g_reg_File|G_MUX_RT|Mux3~8|datac
+     14.079      0.281 FF  CELL  g_reg_File|G_MUX_RT|Mux3~8|combout
+     14.834      0.755 FF    IC  g_reg_File|G_MUX_RT|Mux3~19|datac
+     15.115      0.281 FF  CELL  g_reg_File|G_MUX_RT|Mux3~19|combout
+     15.882      0.767 FF    IC  g_branch|Equal0~17|datab
+     16.307      0.425 FF  CELL  g_branch|Equal0~17|combout
+     16.584      0.277 FF    IC  g_branch|Equal0~19|dataa
+     16.937      0.353 FF  CELL  g_branch|Equal0~19|combout
+     17.631      0.694 FF    IC  g_branch|Equal0~20|datac
+     17.912      0.281 FF  CELL  g_branch|Equal0~20|combout
+     18.141      0.229 FF    IC  g_branch|Mux0~0|datad
+     18.291      0.150 FR  CELL  g_branch|Mux0~0|combout
+     18.509      0.218 RR    IC  g_prefetch|s_nPC4_branch~4|datad
+     18.648      0.139 RF  CELL  g_prefetch|s_nPC4_branch~4|combout
+     18.897      0.249 FF    IC  g_prefetch|g_PC_DFF|s_Q[20]~6|datad
+     19.047      0.150 FR  CELL  g_prefetch|g_PC_DFF|s_Q[20]~6|combout
+     19.797      0.750 RR    IC  g_prefetch|Mux7~1|dataa
+     20.194      0.397 RR  CELL  g_prefetch|Mux7~1|combout
+     20.637      0.443 RR    IC  g_prefetch|Mux7~2|dataa
+     21.065      0.428 RF  CELL  g_prefetch|Mux7~2|combout
+     21.065      0.000 FF    IC  g_prefetch|g_PC_DFF|s_Q[24]|d
+     21.169      0.104 FF  CELL  prefetch:g_prefetch|program_counter:g_PC_DFF|s_Q[24]
+ Data Required Path:
+ Total (ns)  Incr (ns)     Type  Element
+ ==========  ========= ==  ====  ===================================
+     20.000     20.000           latch edge time
+     22.999      2.999  R        clock network delay
+     23.007      0.008           clock pessimism removed
+     22.987     -0.020           clock uncertainty
+     23.005      0.018     uTsu  prefetch:g_prefetch|program_counter:g_PC_DFF|s_Q[24]
+ Data Arrival Time  :    21.169
+ Data Required Time :    23.005
+ Slack              :     1.836
+ ===================================================================
