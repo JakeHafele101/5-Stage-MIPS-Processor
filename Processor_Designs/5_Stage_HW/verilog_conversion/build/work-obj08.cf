@@ -1,0 +1,88 @@
+v 4
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\ALU\adder_subber.vhd" "1bf5687e7cfab666037749b8401fb4fa1885e03b" "20240219025147.552":
+  entity adder_subber at 16( 608) + 0 on 57;
+  architecture structural of adder_subber at 30( 1112) + 0 on 58;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\ALU\ALU.vhd" "9534780879e2f59e0d5d90195d97e1f91466af8d" "20240219025146.379":
+  entity alu at 15( 570) + 0 on 35;
+  architecture mixed of alu at 31( 1099) + 0 on 36;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\ALU\full_adder.vhd" "d1df426cd8a584f577ff41c3f5269156c11dad2c" "20240219025147.168":
+  entity full_adder at 16( 717) + 0 on 49;
+  architecture behavorial of full_adder at 28( 980) + 0 on 50;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\ALU\invg.vhd" "c895dd00c9cf8e0a18723acb79ce8011dc6a4090" "20240219025148.155":
+  entity invg at 20( 649) + 0 on 67;
+  architecture dataflow of invg at 30( 805) + 0 on 68;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\ALU\logic.vhd" "9e538883df10efe45c42154b8174cafc2c896aa7" "20240219025147.629":
+  entity logic at 14( 527) + 0 on 59;
+  architecture structural of logic at 25( 828) + 0 on 60;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\ALU\mux2t1_N.vhd" "99c26fbec829fbb96181756c1b7070c62cb4ef31" "20240219025148.097":
+  entity mux2t1_n at 16( 599) + 0 on 65;
+  architecture dataflow of mux2t1_n at 28( 977) + 0 on 66;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\ALU\ones_comp.vhd" "e62a662d9603973dd4f27c19ec887d603a26faac" "20240219025148.038":
+  entity ones_comp at 15( 576) + 0 on 63;
+  architecture structural of ones_comp at 25( 886) + 0 on 64;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\ALU\ripple_adder.vhd" "0d873ae2118c1ecc3b367d544f78d7d1e9d4ead8" "20240219025147.093":
+  entity ripple_adder at 16( 608) + 0 on 47;
+  architecture structural of ripple_adder at 30( 1092) + 0 on 48;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\ALU\shift.vhd" "9e124d77d27b35d9ef3faca79d9480428e650058" "20240219025147.721":
+  entity shift at 14( 527) + 0 on 61;
+  architecture structural of shift at 25( 831) + 0 on 62;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\branch\branch.vhd" "c8e2322455edf299d92731bc3dab9b146a250328" "20240219025146.169":
+  entity branch at 14( 518) + 0 on 31;
+  architecture structural of branch at 25( 823) + 0 on 32;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\bufferReg\DMEM_WB_BufferReg.vhd" "feae43ac2b8ca8279e57ba48df3f0681f7bd1aa1" "20240219025145.440":
+  entity dmem_wb_bufferreg at 13( 469) + 0 on 23;
+  architecture structural of dmem_wb_bufferreg at 46( 2041) + 0 on 24;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\bufferReg\EX_DMEM_BufferReg.vhd" "721a168c437180f670c2f4814d97defb75f0207c" "20240219025145.256":
+  entity ex_dmem_bufferreg at 13( 469) + 0 on 21;
+  architecture structural of ex_dmem_bufferreg at 48( 2196) + 0 on 22;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\bufferReg\ID_EX_BufferReg.vhd" "986f2c6a9f8dbe273844b3d66d5fc8475746279c" "20240219025144.979":
+  entity id_ex_bufferreg at 13( 467) + 0 on 19;
+  architecture structural of id_ex_bufferreg at 72( 3873) + 0 on 20;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\bufferReg\IF_ID_BufferReg.vhd" "2078b175fb763910f9b52df039c5327a7a3b9e31" "20240219025144.902":
+  entity if_id_bufferreg at 13( 467) + 0 on 17;
+  architecture structural of if_id_bufferreg at 30( 1032) + 0 on 18;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\bufferReg\reg_N_buff.vhd" "906de44a5da25b111da6ff440663f810f8a25d08" "20240219025146.906":
+  entity reg_n_buff at 16( 571) + 0 on 41;
+  architecture structural of reg_n_buff at 31( 1327) + 0 on 42;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\control\control.vhd" "569fd90d72bbd729c4fd99866b3edda59bcd53f1" "20240219025145.835":
+  entity control at 16( 714) + 0 on 27;
+  architecture dataflow of control at 43( 3017) + 0 on 28;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\extender\extend_16t32.vhd" "36dd227f72ce0968c6ff4a185618e7adbfd563e8" "20240219025146.281":
+  entity extend_16t32 at 4( 89) + 0 on 33;
+  architecture dataflow of extend_16t32 at 17( 488) + 0 on 34;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\Forward\forward.vhd" "38bf072a595933431145bd8e2b42090e97343db1" "20240219025146.695":
+  entity forward at 13( 525) + 0 on 39;
+  architecture dataflow of forward at 33( 1783) + 0 on 40;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\Hazard_Detection\hazardDetection.vhd" "9bbda0f2d1a7a4022340b22382e2f541cb1a7d7d" "20240219025146.496":
+  entity hazarddetection at 15( 666) + 0 on 37;
+  architecture dataflow of hazarddetection at 44( 2472) + 0 on 38;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\prefetch\prefetch.vhd" "adb2bd30bb27cbaa6c407e90e2faf47e02ef84b5" "20240219025145.653":
+  entity prefetch at 14( 526) + 0 on 25;
+  architecture mixed of prefetch at 33( 1950) + 0 on 26;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\prefetch\program_counter.vhd" "44f7892c3859c1d7ac2003da051567fdb9b8f376" "20240219025147.030":
+  entity program_counter at 16( 696) + 0 on 45;
+  architecture datapath of program_counter at 28( 1153) + 0 on 46;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\RegFile\decoder_5t32.vhd" "b6c566b2773548e0816296bc31002dbe0c24cf1e" "20240219025147.220":
+  entity decoder_5t32 at 15( 527) + 0 on 51;
+  architecture dataflow of decoder_5t32 at 25( 808) + 0 on 52;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\RegFile\dffg.vhd" "99bc6c0a3d1168194ec193a5f853da03a234085d" "20240219025146.983":
+  entity dffg at 18( 684) + 0 on 43;
+  architecture mixed of dffg at 32( 1012) + 0 on 44;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\RegFile\mux_32t1_32b.vhd" "bc70b60d72e7da4e15dee475cf7502ff781fd894" "20240219025147.486":
+  entity mux_32t1_32b at 16( 546) + 0 on 55;
+  architecture dataflow of mux_32t1_32b at 28( 882) + 0 on 56;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\RegFile\reg_file.vhd" "8f9fc7b48cc0f884e04fa8f878e4ff200addcc22" "20240219025146.050":
+  entity reg_file at 15( 602) + 0 on 29;
+  architecture structural of reg_file at 32( 1463) + 0 on 30;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\RegFile\reg_N.vhd" "61cf765a482489318fcc34c7e6656302a9b8e1b8" "20240219025147.346":
+  entity reg_n at 16( 566) + 0 on 53;
+  architecture structural of reg_n at 29( 1127) + 0 on 54;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\TopLevel\mem.vhd" "91d7d2701c812cb36a6f6c5de845a6d4c3c45cd6" "20240219025144.821":
+  entity mem at 4( 85) + 0 on 15;
+  architecture rtl of mem at 27( 527) + 0 on 16;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\TopLevel\MIPS_Processor.vhd" "0d7d21390ed232a539bd01b0b0baf115b746de27" "20240219025144.290":
+  entity mips_processor at 13( 547) + 0 on 13;
+  architecture mixed of mips_processor at 30( 1180) + 0 on 14;
+file "C:\Projects\5-Stage-MIPS-Processor\Processor_Designs\5_Stage_HW\verilog_conversion\" "..\proj\src\MIPS_types.vhd" "c2de7552d8eb4aaec6c815d87c07bc1f59c3a8a0" "20240219025144.226":
+  package mips_types at 12( 550) + 0 on 11;
+  package body mips_types at 32( 1062) + 0 on 12;
